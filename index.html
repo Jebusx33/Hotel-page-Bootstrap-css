@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS in nodeJs-->
+    <!-- build:css dist/index.css -->
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="open-iconic/font/css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+     <!--  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+	endbuild -->
+    <title>Evaluación del proyecto - Módulo 4</title>
+   
+</head>
+
+<body>
+    <!--Barra de navegacion-->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
+        <a class="navbar-brand" href="#">Hotels</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="./price.html">Price</a></li>
+                <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--Jumbotron-->
+    <div class="jumbotron">
+        <h1>Evaluación del proyecto - Módulo 4</h1>
+    </div>
+
+    <!--*****************breadcrumb**********************-->
+    <div id="breadcrumb">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active" aria-current="page"><a href="index.html">Home</a></li>
+            </ol>
+        </nav>
+    </div>
+    <br>
+    <!--Container-->
+    <div class="container flex-wrap">
+
+        <!--**********************Carrusel*********************-->
+        <hr>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100 imgCarrusel" src="img/ALAMH.jpeg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 imgCarrusel" src="img/playa.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 imgCarrusel" src="img/room.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 imgCarrusel" src="img/elephant.jpg" alt="Four slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <hr>
+
+        <br>
+        <!--***********************Collapse******************-->
+        <div class="row collapses">
+            <div class="col-sm-4">
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#funciona"
+                    aria-expanded="false" aria-controls="multiCollapse1">FAQ 1?</button>
+            </div>
+            <div class="col-sm-4">
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#reserva"
+                    aria-expanded="false" aria-controls="multiCollapse2">FAQ 2?</button>
+            </div>
+            <div class="col-sm-4">
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#pago"
+                    aria-expanded="false" aria-controls="multiCollapse3">FAQ 3?</button>
+            </div>
+        </div>
+
+        <div class="row d-flex">
+            <div class="col-sm-4 collapse multi-collapse" id="funciona">
+                <p>
+                    <h3>Title 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi odit provident pariatur laborum
+                        fuga nobis praesentium a? Quidem veritatis a accusantium nisi quisquam? Sapiente, praesentium
+                        architecto? Dolores impedit perspiciatis deleniti.</p>
+                </p>
+            </div>
+            <div class="col-sm-4 collapse multi-collapse" id="reserva">
+                <p>
+                    <h3>Title 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi odit provident pariatur laborum
+                        fuga nobis praesentium a? Quidem veritatis a accusantium nisi quisquam? Sapiente, praesentium
+                        architecto? Dolores impedit perspiciatis deleniti.</p>
+                </p>
+            </div>
+            <div class="col-sm-4 collapse multi-collapse" id="pago">
+                <p>
+                    <h3>Title 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi odit provident pariatur laborum
+                        fuga nobis praesentium a? Quidem veritatis a accusantium nisi quisquam? Sapiente, praesentium
+                        architecto? Dolores impedit perspiciatis deleniti.</p>
+                </p>
+            </div>
+        </div>
+
+        <br>
+        <hr>
+        <!--*******************************Cards**********************************-->
+        <div class="d-flex flex-wrap flex-row-reverse ">
+
+            <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
+                <div class="card-header">
+                    <span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span>
+                </div>
+                <div>
+                    <div class="card-body">
+                        <h5 class="card-title" data-toggle="tooltip" title="Travels Sale!">Heading</h5>
+                        <img class="card-img-top" src="img/HCard.jpg" alt="hotel img">
+                        <h6 class="card-subtitle text-muted mt-2">Country</h6>
+                        <p class="card-text">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac
+                            cursus commodo, tortor
+                            mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada
+                            magna
+                            mollis euismod. Donec sed odio dui.
+                        </p>
+                        <div class="card-footer">$00000</div>
+                    </div>
+                    <div>
+                        <p><a class="btn btn-secondary btn-details" href="#" role="button">Details </a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
+                <div class="card-header">
+                    <span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span>
+                </div>
+                <div>
+                    <div class="card-body">
+                        <h5 class="card-title" data-toggle="tooltip" title="Travels Sale!">Heading</h5>
+                        <img class="card-img-top" src="img/HCard.jpg" alt="hotel img">
+                        <h6 class="card-subtitle text-muted mt-2">Country</h6>
+                        <p class="card-text">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac
+                            cursus commodo, tortor
+                            mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada
+                            magna
+                            mollis euismod. Donec sed odio dui.
+                        </p>
+                        <div class="card-footer">$00000</div>
+                    </div>
+                    <div>
+                        <p><a class="btn btn-secondary btn-details" href="#" role="button">Details </a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
+                <div class="card-header">
+                    <span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span>
+                </div>
+                <div>
+                    <div class="card-body">
+                        <h5 class="card-title" data-toggle="tooltip" title="Travels Sale!">Heading</h5>
+                        <img class="card-img-top" src="img/HCard.jpg" alt="hotel img">
+                        <h6 class="card-subtitle text-muted mt-2">Country</h6>
+                        <p class="card-text">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac
+                            cursus commodo, tortor
+                            mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada
+                            magna
+                            mollis euismod. Donec sed odio dui.
+                        </p>
+                        <div class="card-footer">$00000</div>
+                    </div>
+                    <div>
+                        <p><a class="btn btn-secondary btn-details" href="#" role="button">Details </a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
+                <div class="card-header">
+                    <span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span>
+                </div>
+                <div>
+                    <div class="card-body">
+                        <h5 class="card-title" data-toggle="tooltip" title="Travels Sale!">Heading</h5>
+                        <img class="card-img-top" src="img/HCard.jpg" alt="hotel img">
+                        <h6 class="card-subtitle text-muted mt-2">Country</h6>
+                        <p class="card-text">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac
+                            cursus commodo, tortor
+                            mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada
+                            magna
+                            mollis euismod. Donec sed odio dui.
+                        </p>
+                        <div class="card-footer">$00000</div>
+                    </div>
+                    <div>
+                        <p><a class="btn btn-secondary btn-details" href="#" role="button">Details </a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
+                <div class="card-header">
+                    <span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span>
+                </div>
+                <div>
+                    <div class="card-body">
+                        <h5 class="card-title" data-toggle="tooltip" title="Travels Sale!">Heading</h5>
+                        <img class="card-img-top" src="img/HCard.jpg" alt="hotel img">
+                        <h6 class="card-subtitle text-muted mt-2">Country</h6>
+                        <p class="card-text">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac
+                            cursus commodo, tortor
+                            mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada
+                            magna
+                            mollis euismod. Donec sed odio dui.
+                        </p>
+                        <div class="card-footer">$00000</div>
+                    </div>
+                    <div>
+                        <p><a class="btn btn-secondary btn-details" href="#" role="button">Details </a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
+                <div class="card-header">
+                    <span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span>
+                </div>
+                <div>
+                    <div class="card-body">
+                        <h5 class="card-title" data-toggle="tooltip" title="Travels Sale!">Heading</h5>
+                        <img class="card-img-top" src="img/HCard.jpg" alt="hotel img">
+                        <h6 class="card-subtitle text-muted mt-2">Country</h6>
+                        <p class="card-text">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac
+                            cursus commodo, tortor
+                            mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada
+                            magna
+                            mollis euismod. Donec sed odio dui.
+                        </p>
+                        <div class="card-footer">$00000</div>
+                    </div>
+                    <div>
+                        <p><a class="btn btn-secondary btn-details" href="#" role="button">Details </a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
+                <div class="card-header ">
+                    <span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span>
+                    <span class="oi oi-star"></span>
+                </div>
+                <div>
+                    <div class="card-body">
+                        <h5 class="card-title" data-toggle="tooltip" title="Travels Sale!">Heading</h5>
+                        <img class="card-img-top" src="img/HCard.jpg" alt="hotel img">
+                        <h6 class="card-subtitle text-muted mt-2">Country</h6>
+                        <p class="card-text">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac
+                            cursus commodo, tortor
+                            mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada
+                            magna
+                            mollis euismod. Donec sed odio dui.
+                        </p>
+                        <div class="card-footer">$00000</div>
+                    </div>
+                    <div>
+                        <p><a class="btn btn-secondary btn-details" href="#" role="button">Details </a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--content Modal-->
+    <div class="tab-pane fade show" id="tarjetas" role="tabpanel" aria-labelledby="tarjetas-tab">
+
+        <!--****************Activador Modal**********-->
+
+        <div class="d-flex justify-content-center m-10">
+            <div class="card" style="width: 18rem; margin-top: 10px;">
+                <div class="card-body">
+                    <h5 class="card-title" style="text-align: center;">Guia de Hoteles</h5>
+                    <hr>
+                    <h6 class="card-subtitle text-muted">Nosotros</h6>
+                    <p class="card-text">Contactate con nosotros</p>
+                </div>
+                <!--**************Poopover***********9*********-->
+                <div>
+                    <a data-toggle="popover" title="Popover Header" data-content="Some content inside the popover"
+                        style="color: #0069d9; cursor: help; text-align: center;">
+                        <p> Popover Click here</p>
+                    </a>
+                </div>
+                <div>
+                    <button type="button" id="contactoBtn" class="btn btn-primary btn-contacto" data-toggle="modal"
+                        data-target="#contact">
+                        Contactanos (Modal)<span></span></button>
+                </div>
+            </div>
+        </div>
+
+        <!--*************************Modal********************-->
+        <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Contacto con el Hotel</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="nombre">Nombre:</label>
+                                <input class="form-control" type="text" name="nombre" id="nombre"
+                                    placeholder="Ingrese su Nombre">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Tu umail:</label>
+                                <input class="form-control" type="email" id="email" placeholder="mail@mail.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="comentario">Mensaje:</label>
+                                <textarea id="comentario" class="form-control" name="" id="" cols="20"
+                                    rows="5"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div id="sendBtn" class="modal-footer">
+                        <button type="button" class="btn btn-outline-success" data-dismiss="modal">Enviar
+                            &raquo;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--**************************************Footer************************************-->
+    <footer>
+        <div class="row">
+            <div class="col-sm-4 d-flex flex-column align-items-start">
+                <a href="#">Facebook</a>
+                <ion-icon name="logo-facebook"></ion-icon>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+            <div class="col-sm-4 d-flex flex-column align-items-center">
+                <address>
+                    <h3>Oficina Central</h3>
+                    <p> <span class="oi oi-home footer-address-icon"></span> Sarasa 844 ,CABA, Argentina</p>
+                    <p><span class="oi oi-phone footer-address-icon" name="call-outline"></span> +549110123456</p>
+                    <a href="mailto:" style="color: #0069d9; text-decoration:none ;"><span
+                            class="oi oi-inbox footer-address-icon"></span>contacto@guiahoteles.com</a>
+                </address>
+            </div>
+            <div class="col-sm-4 d-flex flex-column align-items-end">
+                <a href="#">Nosotros</a>
+                <a href="#">Precios</a>
+                <a href="">Terminos y condiciones</a>
+                <a href="">Contactos</a>
+            </div>
+        </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- build:js dist/index.js -->
+    <script src="jquery/dist/jquery.min.js"></script>
+    <script src="popper.js/dist/umd/popper.min.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+    <!-- endbuild -->
+
+</body>
+
+</html>

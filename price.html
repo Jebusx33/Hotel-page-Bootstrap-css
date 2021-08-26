@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+  <!-- Bootstrap CSS in nodeJs-->
+  <!-- build:css dist/index.css -->
+  <!-- build:css css/index.css -->
+  <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="open-iconic/font/css/open-iconic-bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- endbuild -->
+  <title>Evaluación del proyecto - Módulo 4</title>
+</head>
+
+<body>
+
+
+
+  <!--Barra de navegacion-->
+  <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
+    <a class="navbar-brand" href="#">Hotels</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+        <li class="nav-item active"><a class="nav-link" href="price.html">Price</a></li>
+        <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!--Jumbotron-->
+  <div class="jumbotron">
+    <h1>Evaluación del proyecto - Módulo 4</h1>
+  </div>
+
+  <!--*****************breadcrumb**********************-->
+  <div id="breadcrumb">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item active" aria-current="page"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Price</li>
+      </ol>
+    </nav>
+  </div>
+  <br>
+  <!--Container-->
+  <div class="container flex-wrap">
+    <!--**********************Tabs*****************************-->
+    <ul class=" nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link" id="compara-tab" data-toggle="tab" href="#compara" role="tab" aria-controls="compara"
+          aria-selected="false">Compare</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="tarjetas-tab" data-toggle="tab" href="#tarjetas" role="tab" aria-controls="tarjetas"
+          aria-selected="false">Card</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="comentarios-tab" data-toggle="tab" href="#comentarios" role="tab"
+          aria-controls="comentarios" aria-selected="false">Commentary</a>
+      </li>
+    </ul>
+
+    <!--ContentOFTabs-->
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="compara" role="tabpanel" aria-labelledby="compara-tab">
+        <div class="table-responsive">
+          <table class="table table-striped">
+            <thead class="thead-dark ">
+              <th>Quality</th>
+              <th>Zone 1</th>
+              <th>Zone 2</th>
+              <th>Zone 3</th>
+              <th>Zone 4</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class=" oi oi-star"></span></td>
+                <td>$1000</td>
+                <td>$1200</td>
+                <td>$1500</td>
+                <td>$1800</td>
+              </tr>
+              <tr>
+                <td><span class=" oi oi-star"></span><span class=" oi oi-star"></span></td>
+                <td>$2000</td>
+                <td>$2200</td>
+                <td>$2500</td>
+                <td>$2800</td>
+              </tr>
+              <tr>
+                <td><span class=" oi oi-star"></span><span class=" oi oi-star"></span><span class=" oi oi-star"></span>
+                </td>
+                <td>$3000</td>
+                <td>$3200</td>
+                <td>$3500</td>
+                <td>$3800</td>
+              </tr>
+              <tr>
+                <td><span class=" oi oi-star"></span><span class=" oi oi-star"></span><span
+                    class=" oi oi-star"></span><span class=" oi oi-star"></span></td>
+                <td>$4000</td>
+                <td>$4200</td>
+                <td>$4500</td>
+                <td>$4800</td>
+              </tr>
+              <tr>
+                <td><span class=" oi oi-star"></span><span class=" oi oi-star"></span><span
+                    class=" oi oi-star"></span><span class=" oi oi-star"></span><span class=" oi oi-star"></span></td>
+                <td>$5000</td>
+                <td>$5200</td>
+                <td>$5500</td>
+                <td>$5800</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <!--ContentOFTabs-->
+      <div class="tab-pane fade show" id="tarjetas" role="tabpanel" aria-labelledby="tarjetas-tab">
+
+        <!--Accordeon-->
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne"
+                  aria-expanded="false" aria-controls="collapseOne">
+                  Card Internacional
+                </button>
+              </h2>
+            </div>
+
+            <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+                moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+                proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+                aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                  aria-expanded="false" aria-controls="collapseTwo">
+                  Card Gold
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+                moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+                proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+                aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+                  aria-expanded="false" aria-controls="collapseThree">
+                  Card Black
+                </button>
+              </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+                moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+                proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+                aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center m-10">
+          <div class="card" style="width: 18rem; margin-top: 10px;">
+            <div class="card-header" style="background-color: #0069d9; color:white">
+              <p>Card acepted</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Card Internacional</li>
+              <li class="list-group-item">Card Gold</li>
+              <li class="list-group-item">Card Black</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!--ContentOFTabs-->
+      <div class="tab-pane fade show" id="comentarios" role="tabpanel" aria-labelledby="comentrios-tab">
+        <div style="height: 300px;">
+          <p>Hello world!!</p>
+        </div>
+      </div>
+
+    </div>
+    <!--End Content-->
+  </div>
+
+
+  <!--**************************************Footer************************************-->
+  <footer>
+    <div class="row">
+      <div class="col-sm-4 d-flex flex-column align-items-start">
+        <a href="#">Facebook</a>
+        <ion-icon name="logo-facebook"></ion-icon>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+      </div>
+      <div class="col-sm-4 d-flex flex-column align-items-center">
+        <address>
+          <h3>Oficina Central</h3>
+          <p> <span class="oi oi-home footer-address-icon"></span> Sarasa 844 ,CABA, Argentina</p>
+          <p><span class="oi oi-phone footer-address-icon" name="call-outline"></span> +549110123456</p>
+          <a href="mailto:" style="color: #0069d9; text-decoration:none ;"><span
+              class="oi oi-inbox footer-address-icon"></span>contacto@guiahoteles.com</a>
+        </address>
+      </div>
+      <div class="col-sm-4 d-flex flex-column align-items-end">
+        <a href="#">Nosotros</a>
+        <a href="#">Precios</a>
+        <a href="">Terminos y condiciones</a>
+        <a href="">Contactos</a>
+      </div>
+    </div>
+  </footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <!-- build:js js/index.js -->
+  <!-- build:js dist/index.js -->
+  <script src="jquery/dist/jquery.min.js"></script>
+  <script src="popper.js/dist/umd/popper.min.js"></script>
+  <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+  <!-- endbuild -->
+</body>
+
+</html>
